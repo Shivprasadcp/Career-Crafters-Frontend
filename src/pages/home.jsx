@@ -6,6 +6,8 @@ import Test from "../assets/Test.png";
 import ResumeBuilder from "../assets/Resume Builder.png";
 import CoverLetter from "../assets/CoverLetter.png";
 import Recommendation from "../assets/Recommendation.png";
+import Testimonials from '../components/Testimonials';
+import Footer from '../components/Footer';
 
 
 const home = () => {
@@ -66,6 +68,12 @@ const home = () => {
                         <p className='text-center'>Sign up for Career Compass today and start exploring your future</p>
                         <button className='bg-[#2B99E3] p-2 flex justify-center text-white rounded-lg'>Get started</button>
                     </div>
+                </div>
+                <div>
+                    <Testimonials />
+                </div>
+                <div>
+                    <Footer />
                 </div>
 
 
