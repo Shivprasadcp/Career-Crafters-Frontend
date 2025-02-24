@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className=' w-full h-auto p-4 '>
             <div className='flex flex-row justify-between mb-2'>
                 <div className=' flex justify-center items-center '>
-                    <img src={Logo} alt="" width={100} height={100} />
+                    <img src={Logo} alt="" width={200} height={200} />
                 </div>
                 <div className='text-black  '>
                     <ul className='flex flex-row gap-6 justify-center items-center'>
