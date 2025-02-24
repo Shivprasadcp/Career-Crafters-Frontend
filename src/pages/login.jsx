@@ -19,23 +19,23 @@ const login = () => {
           <div className='flex flex-col gap-4 '>
             <div>
               <h2 className='font-medium'>Full name</h2>
-              <input type="text" className=' p-2 w-1/2 border border-gray-400 rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
+              <input type="text" className=' p-2 w-1/2 border text-[#4F7A94] border-gray-400 rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
             </div>
             <div>
               <h2 className='font-medium'>Username</h2>
-              <input type="text" className=' p-2 w-1/2 border border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
+              <input type="text" className=' p-2 w-1/2 border text-[#4F7A94] border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
             </div>
             <div>
               <h2 className='font-medium'>Password</h2>
-              <input type="text" className=' p-2 w-1/2 border border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
+              <input type="text" className=' p-2 w-1/2 border text-[#4F7A94] border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
             </div>
             <div>
               <h2 className='font-medium'>Email</h2>
-              <input type="text" className='p-2 w-1/2  border border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
+              <input type="text" className='p-2 w-1/2  border text-[#4F7A94] border-gray-400  rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
             </div>
             <div>
               <h2 className='font-medium'>Age</h2>
-              <input type="text" className=' p-2 w-1/2 border border-gray-400 rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
+              <input type="text" className=' p-2 w-1/2 border text-[#4F7A94] border-gray-400 rounded-md focus:outline-none focus:ring-0 focus:border-b-green-400' />
             </div>
           </div>
 
@@ -61,7 +61,7 @@ const login = () => {
               <span>11th grade</span>
             </label>
             <label className="flex font-medium  items-center space-x-2 p-2  border border-gray-400 rounded-md focus:outline-none">
-              <input type="radio" name="option" value="option1" className="accent-blue-700" />
+              <input type="radio" name="option" value="option1" className="accent-blue-700 " />
               <span>12th grade</span>
             </label>
 
@@ -74,7 +74,7 @@ const login = () => {
           <div className='mt-4'>
             <h2 className='font-bold mb-2'>Already have an account?</h2>
 
-            <button className='p-2 w-1/2 rounded-lg  bg-[#2B99E3] text-white'> Register</button>
+            <button className='p-2 w-1/2 rounded-lg  bg-[#2B99E3] text-white'> Log In</button>
           </div>
         </div>
       </div>
