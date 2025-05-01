@@ -21,6 +21,7 @@ function App() {
       <Route path='/signup' element={   <Signup />} />
       <Route path='/dashboard' element={ <Dashbaord />} />
       <Route path='/assesment' element={ <Assesment />} />
+      <Route path='/likerttest' element={ <Assesment />} />
       <Route path='/result' element={<Result />} />
     </Routes>
     </BrowserRouter>
