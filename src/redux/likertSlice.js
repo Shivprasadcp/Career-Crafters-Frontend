@@ -17,6 +17,7 @@ const likertSlice = createSlice({
         },
         setLikertResults: (state, action) => {
             state.results = action.payload;
+            console.log("The test result stored in the redux is as follows:",state.results);
         },
         clearLikertData: (state) => {
             state.questions = [];

@@ -4,6 +4,7 @@ import Login from "./pages/login.jsx"
 import Signup from "./pages/signup.jsx"
 import Dashbaord from "./pages/dashboard.jsx"
 import Assesment from "./pages/assesement.jsx"
+import LikertTest from "./pages/likerttest.jsx"
 import Result  from "./pages/result.jsx"
 
 
@@ -21,7 +22,7 @@ function App() {
       <Route path='/signup' element={   <Signup />} />
       <Route path='/dashboard' element={ <Dashbaord />} />
       <Route path='/assesment' element={ <Assesment />} />
-      <Route path='/likerttest' element={ <Assesment />} />
+      <Route path='/likerttest' element={ <LikertTest />} />
       <Route path='/result' element={<Result />} />
     </Routes>
     </BrowserRouter>
