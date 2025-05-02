@@ -6,6 +6,8 @@ import Dashbaord from "./pages/dashboard.jsx"
 import Assesment from "./pages/assesement.jsx"
 import LikertTest from "./pages/likerttest.jsx"
 import Result  from "./pages/result.jsx"
+import MbtiTest from "./pages/mbtitest.jsx"
+import RecommendationPage from "./components/RecommendationPage.jsx"
 
 
 
@@ -24,6 +26,8 @@ function App() {
       <Route path='/assesment' element={ <Assesment />} />
       <Route path='/likerttest' element={ <LikertTest />} />
       <Route path='/result' element={<Result />} />
+      <Route path="/mbtitest" element={<MbtiTest />} />
+      <Route path="/recommendation" element={<RecommendationPage />} />
     </Routes>
     </BrowserRouter>
     
