@@ -8,7 +8,7 @@ import LikertTest from "./pages/likerttest.jsx"
 import Result  from "./pages/result.jsx"
 import MbtiTest from "./pages/mbtitest.jsx"
 import RecommendationPage from "./components/RecommendationPage.jsx"
-
+import CompleteProfile from  "../src/pages/CompleteProfile.jsx"
 
 
 
@@ -28,6 +28,7 @@ function App() {
       <Route path='/result' element={<Result />} />
       <Route path="/mbtitest" element={<MbtiTest />} />
       <Route path="/recommendation" element={<RecommendationPage />} />
+      <Route path="/complete-profile" element={<CompleteProfile />} />
     </Routes>
     </BrowserRouter>
     
